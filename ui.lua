@@ -4620,12 +4620,12 @@ function library:CreateSettingsTab(menu)
     local mainSection = settingsTab:AddSection('Main', 1);
     local creditsSection = settingsTab:AddSection('Credits & Updates', 2);
     creditsSection:AddSeparator({text = 'Owners/Developers'});
-    creditsSection:AddText({text = "absolute_dev - Main Coder, Designer & Developer"})
+    creditsSection:AddText({text = "absolute_dev - Main Coder, Owner"})
     creditsSection:AddSeparator({text = 'Updates'});
     creditsSection:AddText({text = "v0.0 - Script Was In Dev"})
-    creditsSection:AddText({text = "v0.1 - Script Was Released For Testing"})
-	creditsSection:AddText({text = "v0.2 - Script Getting Updates And Fixes"})
-	creditsSection:AddText({text = "v0.3 - Script Got Rewroten For This UI Library"})
+    creditsSection:AddText({text = "v0.1 - Added Aim Assist & ESP"})
+	creditsSection:AddText({text = "v0.2 - Added Silent Aim"})
+	creditsSection:AddText({text = "v0.3 - Rewroted For New UI"})
 
 
     configSection:AddBox({text = 'Config Name', flag = 'configinput'})
