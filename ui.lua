@@ -611,7 +611,7 @@ function library:init()
 
         local s,e = pcall(function()
             local cfg = {};
-            for flag,option in next, self.options do
+            for flag,option in next, library.flags do
                 if option.class == 'toggle' then
                     cfg[flag] = option.state and 1 or 0;
                 elseif option.class == 'slider' then
